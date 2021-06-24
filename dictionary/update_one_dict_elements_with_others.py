@@ -1,0 +1,10 @@
+dict1={
+    'apple':100,
+    'pear':200
+}
+dict2={
+    'guava':20,
+    'mango':250
+}
+dict1.update(dict2)
+print(dict1)

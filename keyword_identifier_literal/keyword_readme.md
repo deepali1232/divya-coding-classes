@@ -1,0 +1,24 @@
+special reserved words
+none
+false
+true
+and
+as
+class
+continue
+def
+del
+elif
+finally
+for
+from
+global
+if
+is
+lambda
+or
+return
+try
+while
+with
+yield

@@ -1,0 +1,15 @@
+a1=12
+print(a1)
+print(type(a1))
+a1=17.2
+print(a1)
+print(type(a1))
+a1=True
+print(a1)
+print(type(a1))
+a1='sam'
+print(a1)
+print(type(a1))
+a1=3+4j
+print(a1)
+print(type(a1))
