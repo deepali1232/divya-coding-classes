@@ -11,6 +11,7 @@ import cv2
 
 st.set_page_config(page_title='covid-19 world vaccination progress visualization',layout="wide")
 st.sidebar.header('Covid-19 World Vaccination Progress Visualization',anchor='vaccination progress')
+##################################################
 
 
 #header--------------------------------------------------------------------------------------------part#
@@ -96,10 +97,13 @@ st.markdown("""
             """, unsafe_allow_html=True)
 @st.cache(suppress_st_warning=True)
 def viewDataset(pathlist):
-    with st.spinner("Loading Data..."):
-        st.markdown('<p class="head"> DataSet Used In This Project</p>', unsafe_allow_html=True)
+    with st.spinner("loading data....."):
+        st.markdown('<p class="head"> DataSet Used In This Project  </p>',
+                     unsafe_allow_html=True)
+
 st.markdown("")
 st.dataframe(df)
+
 st.markdown(""" 
             <style>
                 .block{
@@ -140,3 +144,5 @@ for col, t in zip(df.columns, types):
             cols[2].markdown('#### Type :')
             cols[3].markdown(f"## {t}")
             st.markdown("___")
+
+####################################################
